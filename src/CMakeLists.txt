@@ -73,7 +73,7 @@ if(APPLE)
     list(APPEND EXTRA_LDFLAGS ${SPARKLE_LIBRARY} "-framework Carbon" "-framework AppKit" "-framework IOKit" "-framework CoreAudio" "-framework AudioToolbox")
 endif()
 
-find_package( Qca REQUIRED )
+find_package( Qca-qt5 REQUIRED )
 
 if(LINUX)
     find_package(X11 REQUIRED)

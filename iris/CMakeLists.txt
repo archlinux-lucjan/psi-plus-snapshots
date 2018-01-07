@@ -39,7 +39,7 @@ if(USE_QJDNS)
     add_definitions(-DNEED_JDNS)
 endif()
 
-find_package(Qca REQUIRED)
+find_package(Qca-qt5 REQUIRED)
 set(QCA_INCLUDES ${Qca_INCLUDE_DIR})
 set(qca_LIB ${Qca_LIBRARY})
 
